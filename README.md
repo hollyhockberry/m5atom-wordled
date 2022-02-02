@@ -12,7 +12,7 @@ https://docs.m5stack.com/en/core/atom_lite
 seeed Grove - RGB LED Matrix w/Driver  
 https://www.seeedstudio.com/Grove-RGB-LED-Matrix-w-Driver.html  
 
-## コンパイル
+## 作りかた
 
 SPIFFSにファイルを書き込む。
 
@@ -24,14 +24,16 @@ pio run --target uploadfs
 
 ```c
 const char SSID[] = "**********";
-const char PSK[] = "+*********";
+const char PSK[] = "**********";
 ```
 
-その後、ファームウェアのコンパイルと書き込む。
+その後、ファームウェアをコンパイルして書き込む。
 
 ```
 pio run --target upload
 ```
+
+MatrixLEDはM5AtomのGroveコネクタに接続します。
 
 ## 使い方
 
@@ -42,3 +44,6 @@ pio run --target upload
 5. ```OK```ボタンを押す
 6. 光る！
 
+## blog
+
+https://hollyhockberry.hatenablog.com/entry/2022/02/02/184824

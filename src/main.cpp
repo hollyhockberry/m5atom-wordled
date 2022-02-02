@@ -10,7 +10,7 @@
 #include "grove_two_rgb_led_matrix.h"
 
 const char SSID[] = "**********";
-const char PSK[] = "+*********";
+const char PSK[] = "**********";
 
 AsyncWebServer server(80);
 GroveTwoRGBLedMatrixClass matrix;
